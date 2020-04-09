@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.wacksonfy{
+  width: 350px;
+  height: 600px;
+  background-image: linear-gradient(to bottom right, #38006d, #2f1646, #210d33, #000000);
+  border-radius: 5px;
+  margin: 15px auto;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wacksonfy-top-buttons{
+  width: 100%;
+  height: 50px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wacksonfy-top-buttons  h6{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wacksonfy-top-buttons  h5{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.wacksonfy-img-album{
+  width: 250px;
+  height: 250px;
 }
+.wacksonfy-img-album img{
+  box-shadow: 0 1rem 3rem rgba(255, 255, 255, 0.239)!important;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  width: 100%;
+}
+.wacksonfy-song-name{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+
+}
+.wacksonfy-band-name{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 12px;
+
+}
+.wacksonfy-play{
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+.wacksonfy-play:active{
+  text-decoration: none;
+}
+.blue{
+  color: #8401ff;
+  font-size: 20px !important;
 }
