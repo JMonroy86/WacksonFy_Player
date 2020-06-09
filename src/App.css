@@ -49,3 +49,9 @@
   color: #8401ff;
   font-size: 20px !important;
 }
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-left: 50px;
+}
